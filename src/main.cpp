@@ -67,7 +67,7 @@ void loop() {
   delay(1000);
 
   /// Display Cyan (Green + Blue)
-  digitalWrite(red_led, LOW);
+  digitalWrite(red_led, LOW); 
   digitalWrite(green_led, HIGH);
   digitalWrite(blue_led, HIGH);
   delay(1000);
